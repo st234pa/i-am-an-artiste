@@ -90,24 +90,6 @@ void testOriented(string in, string out, int size = 50, int N = 7000, float nois
 
 int main()
 {
-  // Test your intermediate functions
-  testSingleScale();
-  testPainterly();
-  // testAngle();
-  // testRotate();
-  // testComputeAngles();
-  // testSingleScaleOriented();
-
-  // integration testing
-  // testOriented("./Input/china.png", "./Output/china_oriented.png");
-  // testOriented("./Input/villeperdue.png", "./Output/villeperdue_oriented.png");
-  // testOriented("./Input/saena_color.png", "./Output/saena_color_painted.png", 25, 50000, 0.3f);
-  // testOriented("./Input/sarah2.png", "./Output/sarah2_painted.png", 40, 50000, 0.3f);
-  // testOriented("./Input/isabella4.png", "./Output/isabella4_painted.png", 50, 60000, 0.3f);
-  // testOriented("./Input/isabella2.png", "./Output/isabella2_painted.png", 40, 50000, 0.3f);
-  // testOriented("./Input/isabella12.png", "./Output/isabella12_painted.png", 50, 150000, 0.3f);
-  // testOriented("./Input/sunny.png", "./Output/sunny_painted.png", 100, 200000, 0.3f);
-  // testOriented("./Input/steph.png", "./Output/steph_painted.png", 20, 40000);
   testOriented("./Input/linda2.png", "./Output/linda2_painted.png", 50, 80000, 0.3f);
   return EXIT_SUCCESS;
 }
