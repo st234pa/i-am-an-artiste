@@ -141,7 +141,7 @@ Matrix tensorImageToMatrix(const Image &tensor, int x, int y)
 float horizontalAngle(Vec2f v)
 {
     float angle = std::atan2(sin(v.y()), cos(v.x()));
-    angle = std::fmodf(angle, M_2_PI);
+    angle = std::fmod(angle, M_2_PI);
     return angle;
 }
 
